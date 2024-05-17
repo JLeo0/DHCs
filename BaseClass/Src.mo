@@ -1,4 +1,4 @@
-within DHC.BaseClass;
+within DHCs.BaseClass;
 model Src "Models in Src side"
    replaceable package Medium =
       Buildings.Media.Water                         constrainedby
@@ -53,7 +53,7 @@ model Src "Models in Src side"
     "Heat conductivity of pipe insulation, used to compute R"
     annotation (Dialog(group="Flow Pipes"));
 
- DHC.BaseClass.Plants.FlowMachine_m SrcPmpS(
+ DHCs.BaseClass.Plants.FlowMachine_m SrcPmpS(
     tWP=tWPV,
     redeclare package Medium = Medium,
     m_flow_nominal=mNomPmpSrcS,

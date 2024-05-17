@@ -1,4 +1,4 @@
-within DHC;
+within DHCs;
 package BaseClass
   extends Modelica.Icons.BasesPackage;
 

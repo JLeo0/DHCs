@@ -1,4 +1,4 @@
-within DHC.Logic.BldgLogic;
+within DHCs.Logic.BldgLogic;
 model LdHdl
   parameter Real k_C annotation (Dialog(group="Contrl"));
   parameter Real k_H  annotation (Dialog(group="Contrl"));

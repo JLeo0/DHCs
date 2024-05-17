@@ -1,4 +1,4 @@
-within DHC.Logic.SysLogic;
+within DHCs.Logic.SysLogic;
 model PltLgc "Plant control Logic"
 
   replaceable package Medium=Buildings.Media.Water
@@ -78,7 +78,7 @@ model PltLgc "Plant control Logic"
         origin={-10,30})));
   Modelica.Blocks.Math.Product product
     annotation (Placement(transformation(extent={{6,-10},{26,10}})));
-  DHC.Logic.EquipLogic.StgCtrl stgCtrl
+  DHCs.Logic.EquipLogic.StgCtrl stgCtrl
     annotation (Placement(transformation(extent={{36,-10},{56,10}})));
   Modelica.Blocks.Interfaces.IntegerOutput SigEqu[5] "Signal"
     annotation (Placement(transformation(extent={{100,-90},{120,-70}})));

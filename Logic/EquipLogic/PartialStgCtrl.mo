@@ -1,4 +1,4 @@
-within DHC.Logic.EquipLogic;
+within DHCs.Logic.EquipLogic;
 partial model PartialStgCtrl "Partial mode for StgCtrl"
   parameter Modelica.Units.SI.Time wt "Waiting time";
   parameter Real k "Min ratio";

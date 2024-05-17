@@ -1,4 +1,4 @@
-within DHC.Logic.SysLogic;
+within DHCs.Logic.SysLogic;
 model mTotPmp "Total mass flow"
   parameter Integer n=5 "Number pumps";
   parameter Modelica.Units.SI.MassFlowRate mNomEqu[n,2]

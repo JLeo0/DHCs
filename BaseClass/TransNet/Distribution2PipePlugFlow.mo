@@ -1,8 +1,8 @@
-within DHC.BaseClass.TransNet;
+within DHCs.BaseClass.TransNet;
 model Distribution2PipePlugFlow
   "Model of a two-pipe distribution network, using plug flow pipe models in the main line"
-  extends DHC.BaseClass.TransNet.PartialDistribution2Pipe(redeclare
-      DHC.BaseClass.TransNet.Connection2PipePlugFlow con[nCon](
+  extends DHCs.BaseClass.TransNet.PartialDistribution2Pipe(redeclare
+      DHCs.BaseClass.TransNet.Connection2PipePlugFlow con[nCon](
       final lengthDis=lengthDis,
       final lengthCon=lengthCon,
       final v_nominalDis=v_nominalDis,

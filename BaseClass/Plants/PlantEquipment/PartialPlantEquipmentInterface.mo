@@ -1,4 +1,4 @@
-within DHC.BaseClass.Plants.PlantEquipment;
+within DHCs.BaseClass.Plants.PlantEquipment;
 partial model PartialPlantEquipmentInterface
   "Partial model that implements the interface for chiller and heat pump in plant"
   extends Buildings.Fluid.Interfaces.PartialFourPortInterface;

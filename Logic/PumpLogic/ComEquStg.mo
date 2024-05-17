@@ -1,4 +1,4 @@
-within DHC.Logic.PumpLogic;
+within DHCs.Logic.PumpLogic;
 model ComEquStg
   "Staging control"
   parameter Integer n(min=1,max=3) "Number";

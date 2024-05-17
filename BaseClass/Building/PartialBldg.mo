@@ -1,4 +1,4 @@
-within DHC.BaseClass.Building;
+within DHCs.BaseClass.Building;
 partial model PartialBldg
   replaceable package Medium =
       Buildings.Media.Water                        constrainedby

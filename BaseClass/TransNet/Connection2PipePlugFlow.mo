@@ -1,7 +1,7 @@
-within DHC.BaseClass.TransNet;
+within DHCs.BaseClass.TransNet;
 model Connection2PipePlugFlow
   "Model for connecting an agent to a two-pipe distribution network, using plug flow pipe models in the main line"
-  extends DHC.BaseClass.TransNet.PartialConnection2Pipe(
+  extends DHCs.BaseClass.TransNet.PartialConnection2Pipe(
     redeclare model Model_pipDisSup =
         Buildings.Fluid.FixedResistances.PlugFlowPipe (
         final length=lengthDis,

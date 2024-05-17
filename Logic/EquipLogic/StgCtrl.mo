@@ -1,6 +1,6 @@
-within DHC.Logic.EquipLogic;
+within DHCs.Logic.EquipLogic;
 model StgCtrl
-  extends DHC.Logic.EquipLogic.PartialStgCtrl;
+  extends DHCs.Logic.EquipLogic.PartialStgCtrl;
   parameter Real Qc[5] "Capacity in clg mode";
   parameter Real Qh[3] "Capacity in htg mode";
   parameter Boolean PS[2]={true,true}

@@ -1,4 +1,4 @@
-within DHC.BaseClass.TransNet;
+within DHCs.BaseClass.TransNet;
 partial model PartialConnection2Pipe
   "Partial model for connecting an agent to a two-pipe distribution network"
   extends

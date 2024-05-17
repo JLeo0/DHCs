@@ -1,4 +1,4 @@
-within DHC.Logic;
+within DHCs.Logic;
 package PumpLogic
 
 end PumpLogic;

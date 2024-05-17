@@ -1,7 +1,7 @@
-within DHC.BaseClass.Plants.PlantEquipment;
+within DHCs.BaseClass.Plants.PlantEquipment;
 model CHwithVlv "Electric chiller with associated valves"
-  extends DHC.BaseClass.Plants.PlantEquipment.PartialEquipmentValve(val2(each final
-              dpFixed_nominal=dp2_nominal), val1(each final dpFixed_nominal=
+  extends DHCs.BaseClass.Plants.PlantEquipment.PartialEquipmentValve(val2(each
+        final dpFixed_nominal=dp2_nominal), val1(each final dpFixed_nominal=
           dp1_nominal));
 
   parameter Modelica.Units.SI.Time tau1=30
@@ -57,8 +57,8 @@ model CHwithVlv "Electric chiller with associated valves"
     "Nominal value of trace substances. (Set to typical order of magnitude.)"
    annotation (Dialog(tab="Initialization", group = "Medium 2", enable=Medium2.nC > 0));
 
-  replaceable DHC.BaseClass.Plants.ElectricEIR Equ constrainedby
-    DHC.BaseClass.Plants.ElectricEIR(
+  replaceable DHCs.BaseClass.Plants.ElectricEIR Equ constrainedby
+    DHCs.BaseClass.Plants.ElectricEIR(
     redeclare each final package Medium1 = Medium1,
     redeclare each final package Medium2 = Medium2,
     each final allowFlowReversal1=allowFlowReversal1,

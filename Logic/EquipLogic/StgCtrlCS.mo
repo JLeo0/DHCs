@@ -1,6 +1,6 @@
-within DHC.Logic.EquipLogic;
+within DHCs.Logic.EquipLogic;
 model StgCtrlCS "Staging Control in Clg+S"
-  extends DHC.Logic.EquipLogic.PartialStgCtrl;
+  extends DHCs.Logic.EquipLogic.PartialStgCtrl;
   Modelica_StateGraph2.Step A1(
     use_activePort=true,
     nIn=2,

@@ -1,7 +1,7 @@
-within DHC.BaseClass.Plants.PlantEquipment;
+within DHCs.BaseClass.Plants.PlantEquipment;
 partial model PartialEquipmentValve
   "Partial equipment model with associated valves"
-  extends DHC.BaseClass.Plants.PlantEquipment.PartialPlantEquipmentInterface;
+  extends DHCs.BaseClass.Plants.PlantEquipment.PartialPlantEquipmentInterface;
   extends
     Buildings.Applications.DataCenters.ChillerCooled.Equipment.BaseClasses.ValvesParameters(
     final numVal = 2,

@@ -1,4 +1,4 @@
-within DHC.Logic.PumpLogic;
+within DHCs.Logic.PumpLogic;
 model mPmps "Mass flow control for primary pumps and src pumps"
   parameter Boolean PS[3]=fill(true,3) "T=Parallel,F=Series(Src side)";
   parameter Integer nPmpP[2]={3,2}
@@ -31,18 +31,15 @@ model mPmps "Mass flow control for primary pumps and src pumps"
   SysLogic.mTotPmp
           mTotPmpPri
     annotation (Placement(transformation(extent={{-60,-2},{-40,18}})));
-  DHC.Logic.PumpLogic.ComEquStg mPmpSrc                annotation (Placement(
-        transformation(
+  DHCs.Logic.PumpLogic.ComEquStg mPmpSrc annotation (Placement(transformation(
         extent={{-10,-10},{10,10}},
         rotation=0,
         origin={50,60})));
-  DHC.Logic.PumpLogic.ComEquStg mPmpCwp                annotation (Placement(
-        transformation(
+  DHCs.Logic.PumpLogic.ComEquStg mPmpCwp annotation (Placement(transformation(
         extent={{-10,10},{10,-10}},
         rotation=0,
         origin={70,-60})));
-  DHC.Logic.PumpLogic.ComEquStg mPmpHwp                annotation (Placement(
-        transformation(
+  DHCs.Logic.PumpLogic.ComEquStg mPmpHwp annotation (Placement(transformation(
         extent={{-10,-10},{10,10}},
         rotation=0,
         origin={70,0})));

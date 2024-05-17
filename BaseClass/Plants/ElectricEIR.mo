@@ -1,6 +1,6 @@
-within DHC.BaseClass.Plants;
+within DHCs.BaseClass.Plants;
 model ElectricEIR "Electric chiller based on the DOE-2.1 model"
-  extends DHC.BaseClass.Plants.PartialElectric(
+  extends DHCs.BaseClass.Plants.PartialElectric(
     final QEva_flow_nominal=per.QEva_flow_nominal,
     final COP_nominal=per.COP_nominal,
     final PLRMax=per.PLRMax,

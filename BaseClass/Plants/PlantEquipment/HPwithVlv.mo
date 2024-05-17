@@ -1,7 +1,7 @@
-within DHC.BaseClass.Plants.PlantEquipment;
+within DHCs.BaseClass.Plants.PlantEquipment;
 model HPwithVlv "Heat pump with associated valves"
-  extends DHC.BaseClass.Plants.PlantEquipment.PartialEquipmentValve(val2(each final
-              dpFixed_nominal=dp2_nominal), val1(each final dpFixed_nominal=
+  extends DHCs.BaseClass.Plants.PlantEquipment.PartialEquipmentValve(val2(each
+        final dpFixed_nominal=dp2_nominal), val1(each final dpFixed_nominal=
           dp1_nominal));
   parameter Real scaling_factor = 1
    "Scaling factor for heat pump capacity";

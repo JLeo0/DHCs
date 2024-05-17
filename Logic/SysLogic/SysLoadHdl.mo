@@ -1,4 +1,4 @@
-within DHC.Logic.SysLogic;
+within DHCs.Logic.SysLogic;
 model SysLoadHdl
   parameter Real k[2];
   Modelica.Blocks.Interfaces.RealInput u[2] "Connector of Real input signal"

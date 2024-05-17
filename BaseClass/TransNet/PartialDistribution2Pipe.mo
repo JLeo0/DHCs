@@ -1,4 +1,4 @@
-within DHC.BaseClass.TransNet;
+within DHCs.BaseClass.TransNet;
 partial model PartialDistribution2Pipe
   "Partial model for two-pipe distribution network"
   extends Buildings.Experimental.DHC.Networks.BaseClasses.PartialDistribution;
@@ -84,7 +84,7 @@ partial model PartialDistribution2Pipe
     annotation (Placement(transformation(extent={{100,40},{140,80}}),
       iconTransformation(extent={{200,30},{240,70}})));
   // COMPONENTS
-  replaceable DHC.BaseClass.TransNet.PartialConnection2Pipe con[nCon](
+  replaceable DHCs.BaseClass.TransNet.PartialConnection2Pipe con[nCon](
     redeclare each final package Medium = Medium,
     each final show_entFlo=show_entFlo,
     final mDis_flow_nominal=mDisCon_flow_nominal,

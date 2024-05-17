@@ -1,4 +1,4 @@
-within DHC.BaseClass.Plants;
+within DHCs.BaseClass.Plants;
 model FlowMachine_m "Identical m_flow controlled pumps"
   extends
     Buildings.Applications.DataCenters.ChillerCooled.Equipment.BaseClasses.PartialPumpParallel(

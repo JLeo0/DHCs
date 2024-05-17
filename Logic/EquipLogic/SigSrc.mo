@@ -1,4 +1,4 @@
-within DHC.Logic.EquipLogic;
+within DHCs.Logic.EquipLogic;
 model SigSrc
   "StgCtrl output Signal"
   parameter Boolean PS[3] "T=P,F=S";

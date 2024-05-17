@@ -1,7 +1,7 @@
-within DHC.BaseClass.Plants.PlantEquipment;
+within DHCs.BaseClass.Plants.PlantEquipment;
 model HPPS "Heat pumps in parallel or series"
   extends PartialPS(
-  redeclare DHC.BaseClass.Plants.PlantEquipment.HPwithVlv Equ[num](final per=
+  redeclare DHCs.BaseClass.Plants.PlantEquipment.HPwithVlv Equ[num](final per=
           per, final scaling_factor=scaling_factor));
   parameter Real scaling_factor[num] = fill(1,num)
    "Scaling factor for heat pump capacity";

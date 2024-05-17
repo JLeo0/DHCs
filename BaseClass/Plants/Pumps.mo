@@ -1,4 +1,4 @@
-within DHC.BaseClass.Plants;
+within DHCs.BaseClass.Plants;
 model Pumps "Pumps"
   replaceable package Medium =Buildings.Media.Water
    constrainedby Modelica.Media.Interfaces.PartialMedium

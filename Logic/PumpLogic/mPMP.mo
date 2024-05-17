@@ -1,4 +1,4 @@
-within DHC.Logic.PumpLogic;
+within DHCs.Logic.PumpLogic;
 model mPMP
   parameter Real m_nominal
     "Nominal mass flow rate";

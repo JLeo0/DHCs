@@ -1,4 +1,4 @@
-within DHC.BaseClass.Plants.PlantEquipment;
+within DHCs.BaseClass.Plants.PlantEquipment;
 model Equips "CHillers and heat pumps"
   replaceable package Medium =Buildings.Media.Water
    constrainedby Modelica.Media.Interfaces.PartialMedium

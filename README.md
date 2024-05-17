@@ -1,9 +1,9 @@
 # Description
 - This is a [Modelica](https://modelica.org/) simulation research for district heating and cooling (DHC) system combined with ground-source heat pump system, based on an actual project in Chongqing, China. 
-- The research includes the following parts:
-	+ Changes in the energy consumption of main part of the DHC system when the cold and hot source equipment are connected in parallel or series on the source side;
-	+ Changes in hydraulic stability, thermal stability and energy consumption of the DHC system when the decouplers are set at different positions in constant primary flow/variable secondary flow system;
-	+ Optimization of this DHC system based on the original design and calculation its energy saving rate;
+- The research mainly includes the following parts:
+	+ Simulate the energy consumption of the DHC system when the cooling or heating equipment are connected in parallel or series on the source side;
+	+ Simulate the hydraulic stability, thermal stability and energy consumption of the DHC system when the decouplers are set at different positions in constant primary flow/variable secondary flow system;
+	+ Optimize of the DHC system based on the original design and calculate its energy saving rate;
 	+ And so on.
 	
 

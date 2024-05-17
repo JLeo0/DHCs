@@ -1,11 +1,11 @@
-within DHC.BaseClass.Plants.PlantEquipment;
+within DHCs.BaseClass.Plants.PlantEquipment;
 partial model PartialPS "Partial equipment parallel or series model"
 
-  extends DHC.BaseClass.Plants.PlantEquipment.PartialPlantEquipmentInterface;
+  extends DHCs.BaseClass.Plants.PlantEquipment.PartialPlantEquipmentInterface;
   parameter Integer num(min=1)=2 "Number of equipment";
   parameter Boolean PS=true "T=Parallel,F=Series";
-  replaceable DHC.BaseClass.Plants.PlantEquipment.PartialEquipmentValve Equ[num]
-    constrainedby DHC.BaseClass.Plants.PlantEquipment.PartialEquipmentValve(
+  replaceable DHCs.BaseClass.Plants.PlantEquipment.PartialEquipmentValve Equ[num]
+    constrainedby DHCs.BaseClass.Plants.PlantEquipment.PartialEquipmentValve(
     redeclare each final package Medium1 = Medium1,
     redeclare each final package Medium2 = Medium2,
     each final m1_flow_nominal=m1_flow_nominal,

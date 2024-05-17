@@ -1,4 +1,4 @@
-within DHC.BaseClass.Plants;
+within DHCs.BaseClass.Plants;
 partial model PartialElectric
   "Partial model for electric chiller based on the model in DOE-2, CoolTools and EnergyPlus"
   extends Buildings.Fluid.Interfaces.FourPortHeatMassExchanger(

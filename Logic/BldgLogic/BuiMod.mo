@@ -1,4 +1,4 @@
-within DHC.Logic.BldgLogic;
+within DHCs.Logic.BldgLogic;
 model BuiMod
   Modelica.Blocks.Interfaces.BooleanInput u_C
     annotation (Placement(transformation(extent={{-140,40},{-100,80}})));

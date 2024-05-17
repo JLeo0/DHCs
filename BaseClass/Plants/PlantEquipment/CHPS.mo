@@ -1,7 +1,7 @@
-within DHC.BaseClass.Plants.PlantEquipment;
+within DHCs.BaseClass.Plants.PlantEquipment;
 model CHPS "Chillers in parallel or series"
   extends PartialPS(
-  redeclare DHC.BaseClass.Plants.PlantEquipment.CHwithVlv Equ[num](final per=
+  redeclare DHCs.BaseClass.Plants.PlantEquipment.CHwithVlv Equ[num](final per=
           per));
   replaceable parameter Buildings.Fluid.Chillers.Data.ElectricEIR.Generic per[num]
     "Performance data"

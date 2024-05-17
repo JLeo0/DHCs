@@ -1,4 +1,4 @@
-within DHC.BaseClass.Plants;
+within DHCs.BaseClass.Plants;
 model Plant "Plant"
   replaceable package Medium =Buildings.Media.Water
    constrainedby Modelica.Media.Interfaces.PartialMedium
@@ -126,14 +126,14 @@ model Plant "Plant"
   replaceable parameter Buildings.Fluid.Movers.Data.Generic perHwp[nPmpP[2]]
   "Performance data for Hwp"
     annotation (Dialog(group="Pump"),choicesAllMatching=true, Placement(transformation(extent={{36,-98},{52,-82}})));
-  DHC.BaseClass.Plants.FlowMachine_m CWP(
+  DHCs.BaseClass.Plants.FlowMachine_m CWP(
     redeclare package Medium = Medium,
     m_flow_nominal=mNomPmpP[1],
     dpValve_nominal=dpNomPmpP[1],
     each per=perCwp,
     num=nPmpP[1])
     annotation (Placement(transformation(extent={{-60,30},{-40,50}})));
-  DHC.BaseClass.Plants.FlowMachine_m HWP(
+  DHCs.BaseClass.Plants.FlowMachine_m HWP(
     redeclare package Medium = Medium,
     m_flow_nominal=mNomPmpP[2],
     dpValve_nominal=dpNomPmpP[2],
