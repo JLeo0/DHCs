@@ -2,8 +2,8 @@ within DHCs.BaseClass.Building;
 model Bldg "A building, Extend from PartialBldg"
   extends Building.PartialBldg;
   parameter Real km[2]
-    "Min/Max ratio"
     annotation(Dialog(group="Pump Control"));
+
 public
   DHCs.Logic.PumpLogic.mPMP PmpCtrlH(
     m_nominal=m_flow_nominal_PMP_H,

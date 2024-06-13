@@ -120,8 +120,9 @@ equation
                                                               color={0,0,127}));
   connect(Two.y, multiSum.u[2])
     annotation (Line(points={{-59,-60},{-26,-60},{-26,-61}}, color={0,0,127}));
-  connect(Three.y, multiSum.u[3]) annotation (Line(points={{-59,-80},{-40,-80},
-          {-40,-59.8333},{-26,-59.8333}},color={0,0,127}));
+  connect(Three.y, multiSum.u[3]) annotation (Line(points={{-59,-80},{-40,
+          -80},{-40,-59.8333},{-26,-59.8333}},
+                                         color={0,0,127}));
   connect(realToInt.y, y1) annotation (Line(points={{36.7,-61},{36.7,-60},{80,-60},
           {80,80},{110,80}},
         color={255,127,0}));

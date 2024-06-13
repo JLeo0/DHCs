@@ -7,7 +7,7 @@ partial model PartialBldg
                             "Bypass pipe model";
   parameter String filNam "File name with thermal loads as time series"
   annotation (Dialog(group="Load"));
-  parameter Real kLd[2] "Min Cooling/Heating Load"
+  parameter Real kLd[2]
   annotation (Dialog(group="Load"));
   parameter Integer nPmp[2] "Number of Clg/Htg pumps in Bldg"
     annotation (Dialog(group="Pumps"));

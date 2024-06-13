@@ -1,7 +1,7 @@
 within DHCs.System;
 model Sys
   extends ParSysNoCtrl;
-  Logic.SysLogic.PltLgc Logic
+  DHCs.Logic.SysLogic.PltLgc Logic
     annotation (Placement(transformation(extent={{-40,46},{-60,68}})));
   Modelica.Blocks.Sources.RealExpression Tset annotation (Placement(transformation(
         extent={{-10,-10},{10,10}},
@@ -10,8 +10,8 @@ model Sys
 equation
   connect(Logic.mFlow, mSup.m_flow) annotation (Line(points={{-38,47.1},{-32,
           47.1},{-32,-1.6}}, color={0,0,127}));
-  connect(Logic.Ld, Bldg.Load) annotation (Line(points={{-38,66.9},{68,66.9},{
-          68,59.4286},{60.7143,59.4286}}, color={0,0,127}));
+  connect(Logic.Ld, Bldg.Load) annotation (Line(points={{-38,66.9},{68,66.9},
+          {68,59.4286},{60.7143,59.4286}},color={0,0,127}));
   connect(Logic.mCwp, Plant.mCwp) annotation (Line(points={{-61,52.6},{-78,52.6},
           {-78,-26.8},{-64.2,-26.8}}, color={0,0,127}));
   connect(Plant.mHwp, Logic.mHwp) annotation (Line(points={{-64.2,-31.2},{-82,-31.2},

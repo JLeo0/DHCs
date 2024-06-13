@@ -135,12 +135,13 @@ equation
           {-26,88}},     color={0,0,0}));
   connect(T6.outPort,B2. inPort[2])
     annotation (Line(points={{-35,88},{-39.5,88},{-39.5,72}}, color={0,0,0}));
-  connect(RA1.y, multiSum.u[1]) annotation (Line(points={{-92,-71},{-92,
-          -48.1667},{-82,-48.1667}}, color={0,0,127}));
+  connect(RA1.y, multiSum.u[1]) annotation (Line(points={{-92,-71},{-92,-48.1667},
+          {-82,-48.1667}},           color={0,0,127}));
   connect(RB2.y, multiSum.u[2]) annotation (Line(points={{-80,-71},{-80,-62},{-92,
           -62},{-92,-47},{-82,-47}},         color={0,0,127}));
-  connect(RA1B2.y, multiSum.u[3]) annotation (Line(points={{-68,-71},{-68,-62},
-          {-92,-62},{-92,-45.8333},{-82,-45.8333}}, color={0,0,127}));
+  connect(RA1B2.y, multiSum.u[3]) annotation (Line(points={{-68,-71},{-68,
+          -62},{-92,-62},{-92,-45.8333},{-82,-45.8333}},
+                                                    color={0,0,127}));
   connect(product.y, combiTable1Ds.u)
     annotation (Line(points={{14.7,-43},{32.6,-43}}, color={0,0,127}));
   connect(product.u2, multiSum.y) annotation (Line(points={{-1.4,-47.2},{-68,-47.2},

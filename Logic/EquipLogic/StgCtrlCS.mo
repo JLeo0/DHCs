@@ -427,27 +427,28 @@ equation
           {5,-12}},        color={0,0,0}));
   connect(RA1.y, multiSum.u[1]) annotation (Line(points={{-92,-71},{-92,-48.5909},
           {-80,-48.5909}},           color={0,0,127}));
-  connect(RB1.y, multiSum.u[2]) annotation (Line(points={{-80,-71},{-80,-62},{
-          -92,-62},{-92,-48.2727},{-80,-48.2727}},
+  connect(RB1.y, multiSum.u[2]) annotation (Line(points={{-80,-71},{-80,-62},
+          {-92,-62},{-92,-48.2727},{-80,-48.2727}},
                                              color={0,0,127}));
-  connect(RA1B1.y, multiSum.u[3]) annotation (Line(points={{-68,-71},{-68,-62},
-          {-92,-62},{-92,-47.9545},{-80,-47.9545}}, color={0,0,127}));
-  connect(RB2.y, multiSum.u[4]) annotation (Line(points={{-56,-71},{-56,-62},{
-          -92,-62},{-92,-47.6364},{-80,-47.6364}}, color={0,0,127}));
-  connect(RA1B2.y, multiSum.u[5]) annotation (Line(points={{-44,-71},{-44,-62},
-          {-92,-62},{-92,-47.3182},{-80,-47.3182}},
+  connect(RA1B1.y, multiSum.u[3]) annotation (Line(points={{-68,-71},{-68,
+          -62},{-92,-62},{-92,-47.9545},{-80,-47.9545}},
+                                                    color={0,0,127}));
+  connect(RB2.y, multiSum.u[4]) annotation (Line(points={{-56,-71},{-56,-62},
+          {-92,-62},{-92,-47.6364},{-80,-47.6364}},color={0,0,127}));
+  connect(RA1B2.y, multiSum.u[5]) annotation (Line(points={{-44,-71},{-44,
+          -62},{-92,-62},{-92,-47.3182},{-80,-47.3182}},
                                               color={0,0,127}));
   connect(RC2.y, multiSum.u[6])  annotation (Line(points={{-32,-71},{-32,-62},{-92,
           -62},{-92,-47},{-80,-47}},               color={0,0,127}));
-  connect(RA1C2.y, multiSum.u[7])  annotation (Line(points={{-20,-71},{-20,-62},
-          {-92,-62},{-92,-46.6818},{-80,-46.6818}},
+  connect(RA1C2.y, multiSum.u[7])  annotation (Line(points={{-20,-71},{-20,
+          -62},{-92,-62},{-92,-46.6818},{-80,-46.6818}},
                                              color={0,0,127}));
-  connect(RB1C2.y, multiSum.u[8])  annotation (Line(points={{-8,-71},{-8,-62},{
-          -92,-62},{-92,-46.3636},{-80,-46.3636}}, color={0,0,127}));
-  connect(RA1B1C2.y, multiSum.u[9])  annotation (Line(points={{4,-71},{4,-62},{
-          -92,-62},{-92,-46.0455},{-80,-46.0455}},  color={0,0,127}));
-  connect(RB2C2.y, multiSum.u[10]) annotation (Line(points={{16,-71},{16,-62},{
-          -92,-62},{-92,-45.7273},{-80,-45.7273}},
+  connect(RB1C2.y, multiSum.u[8])  annotation (Line(points={{-8,-71},{-8,-62},
+          {-92,-62},{-92,-46.3636},{-80,-46.3636}},color={0,0,127}));
+  connect(RA1B1C2.y, multiSum.u[9])  annotation (Line(points={{4,-71},{4,-62},
+          {-92,-62},{-92,-46.0455},{-80,-46.0455}}, color={0,0,127}));
+  connect(RB2C2.y, multiSum.u[10]) annotation (Line(points={{16,-71},{16,-62},
+          {-92,-62},{-92,-45.7273},{-80,-45.7273}},
                                              color={0,0,127}));
   connect(RA1B2C2.y, multiSum.u[11]) annotation (Line(points={{28,-71},{28,-62},
           {-92,-62},{-92,-45.4091},{-80,-45.4091}}, color={0,0,127}));
